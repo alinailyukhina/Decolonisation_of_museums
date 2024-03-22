@@ -1,5 +1,5 @@
 # Decolonisation of museums
-This repository consists of all the data obtained for the study project called "Decolonisation of museums:  representation of the former colonies of Spain and Great Britain in museum exhibitions" created by Alina Ilyukhina, Daria Plishko, Alexandra Mityukova, Alexey Makovsky and Jean Louis Ludvetz under the guidance of Dinara Gagarina within the Digital projects course based on Digital Humanities Master's programme at HSE University.
+This repository consists of all the data obtained for the study project called "Decolonisation of museums:  representation of the former colonies of Spain and Great Britain in museum exhibitions" created by postgraduate students Alina Ilyukhina, Daria Plishko, Alexandra Mityukova, Alexey Makovsky and Jean Louis Ludvetz under the guidance of Dinara Gagarina within the Digital projects course based on Digital Humanities Master's programme at HSE University.
 
 Read our article ***[here](https://docs.google.com/document/d/199-ClbtcpOXqbujG4W_8Vm6MZsAdSutq/edit?usp=sharing&ouid=109874936898744369055&rtpof=true&sd=true)*** 
 
