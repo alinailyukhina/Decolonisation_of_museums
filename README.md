@@ -9,6 +9,7 @@ Although the question of cultural representation is studied by various scholars,
 ## About data
 The data used in the project was collected and annotated by the participants themselves. The initial data included information about exhibitions posted on the official websites of the British Museum, Pitt Rivers Museum, Cambridge Museum of Archaeology and Anthropology, Museo de Reina Sofía, Museo del Prado, Museo de América. Information was gathered on 67 exhibitions held from 2013 to 2023. The resulting research data is compiled in the table "Dataset of the project - exhibitions.csv". In the future, this can be used in research as a historical source of cultural interaction.
 
-Keywords: cultural representation, post-colonial digital humanities, social network analysis, british museums, spanish museums, latino cultures, african cultures, asian cultures, cultural objects.
+## Keywords
+cultural representation, post-colonial digital humanities, social network analysis, british museums, spanish museums, latino cultures, african cultures, asian cultures, cultural objects.
 
 doi 10.5281/zenodo.8061464
