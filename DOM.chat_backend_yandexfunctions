@@ -1,0 +1,28 @@
+import requests
+import json
+import base64
+
+
+def handler(event, context):
+    bot_token = '6509699763:AAHKlik3ojcXc_4W0gvL3KH_6PjVx7QA6Eo'  # Replace 'YOUR_BOT_TOKEN' with your actual bot token
+    chat_id = '-4114160967'      # Replace 'YOUR_CHAT_ID' with your actual chat ID
+    url = f'https://api.telegram.org/bot{bot_token}/sendMessage'
+    data = json.dumps(event)
+    data_py = json.loads(data)
+    try:
+        message = data_py.get('body')
+        decoded_message = base64.b64decode(message)
+        params = {'chat_id': chat_id, 'text': decoded_message}  # Assuming 'event' contains the message text
+        response = requests.post(url, data=params)
+    except:
+        print("Error decoding or sending message:")
+    return {
+        "statusCode": 200,
+        'body': json.dumps(
+             {
+                'event': event,
+                'context': context
+            }, 
+            default=str  # Преобразовываем все объекты в строки
+         )
+    }
